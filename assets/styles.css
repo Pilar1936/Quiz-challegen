@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat:wght@400;500;600;700&family=Nova+Square&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,800&display=swap')
+
+
+* {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5;
+    font-family: 'Nova Square' , cursive;
+}
+/*style for h1*/
+h1{
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+/*style for p*/
+p{
+    font-size: 100;
+    text-align: center;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+/*style for class contain*/
+.contain{
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hide {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+  }
+
+/*style for scores*/
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid rgb(201, 193, 193);
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: #70707a;
+  }
+/*style for button*/
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Architects Daughter", cursive;
+    font-size: 100%;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: silver;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
